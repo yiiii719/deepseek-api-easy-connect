@@ -1,4 +1,4 @@
-// DeepSeek Clone — 前端主程序（原生 ES 模块，无构建、无框架）
+// TIDE（潮汐）· 前端主程序（原生 ES 模块，无构建、无框架）
 import { render as md } from './md.js'
 
 /* ───────────── 小工具 ───────────── */

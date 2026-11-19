@@ -1,15 +1,26 @@
 {
-  "name": "deepseek-clone",
-  "version": "1.0.0",
+  "name": "tide",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "DeepSeek App 的本地复刻：自建前端 + 零依赖后端，可接任意 API Key，SSE 首字延迟对齐/优于官方客户端",
+  "description": "TIDE（潮汐）：自包含的 DeepSeek API 客户端 —— 安卓 APK（内置 Java 后端）+ 零依赖 Node 网页版",
+  "license": "MIT",
   "main": "server/index.mjs",
   "scripts": {
     "start": "node server/index.mjs",
     "dev": "node --watch server/index.mjs",
-    "bench": "node bench/latency.mjs"
+    "bench": "node bench/latency.mjs",
+    "test:md": "node tools/md-test.mjs"
   },
+  "keywords": [
+    "deepseek",
+    "llm",
+    "chat",
+    "android",
+    "apk",
+    "sse",
+    "openai-compatible"
+  ],
   "engines": {
     "node": ">=20"
   },

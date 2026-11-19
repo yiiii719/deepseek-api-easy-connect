@@ -1,4 +1,4 @@
-// DeepSeek Clone — 零依赖后端
+// TIDE（潮汐）· 零依赖后端
 // 统一入口：静态站 + 私有 API + OpenAI 兼容网关 + SSE 直通
 import http from 'node:http'
 import fs from 'node:fs'
