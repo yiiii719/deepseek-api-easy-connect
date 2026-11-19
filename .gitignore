@@ -1,0 +1,21 @@
+node_modules/
+data/
+artifacts/
+
+# Android build inputs / outputs
+android/sdk/
+android/sdk-dl/
+android/build/
+android/assets/
+android/*.jks
+android/*.keystore
+android/setkey*.json
+android/demo.json
+android/chatdemo.json
+*.idsig
+
+# local state
+*.log
+*.pid
+.DS_Store
+Thumbs.db

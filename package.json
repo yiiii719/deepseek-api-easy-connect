@@ -1,0 +1,17 @@
+{
+  "name": "deepseek-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek App 的本地复刻：自建前端 + 零依赖后端，可接任意 API Key，SSE 首字延迟对齐/优于官方客户端",
+  "main": "server/index.mjs",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "bench": "node bench/latency.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}
