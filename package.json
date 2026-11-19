@@ -1,10 +1,14 @@
 {
-  "name": "tide",
+  "name": "deepseek-api-easy-connect",
   "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "TIDE（潮汐）：自包含的 DeepSeek API 客户端 —— 安卓 APK（内置 Java 后端）+ 零依赖 Node 网页版",
+  "description": "DeepSeek API 便捷连接：自包含客户端 —— 安卓 APK（内置 Java 后端）+ 零依赖 Node 网页版",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiiii719/deepseek-api-easy-connect.git"
+  },
   "main": "server/index.mjs",
   "scripts": {
     "start": "node server/index.mjs",

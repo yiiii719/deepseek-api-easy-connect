@@ -1,7 +1,9 @@
-# 潮汐 TIDE · DeepSeek API 客户端
+# DeepSeek API 便捷连接
 
 把 DeepSeek API 变成「像官方 App 一样能用」的客户端：**安卓 APK + 网页版**，前后端都在本地，不经过任何第三方服务器。
 
+> 客户端名：**潮汐（TIDE）**　仓库名：**deepseek-api-easy-connect**
+>
 > 起因：官方 App 调整额度后，不少人转到 API 端继续用，但对着 Base URL / API Key / 模型名这些东西发怵。
 > 这个项目把「装上 → 粘 Key → 开聊」做成三步，其余都藏起来。
 
@@ -49,8 +51,8 @@
 ### 方式二：网页版
 
 ```bash
-git clone https://github.com/yiiii719/tide.git
-cd tide
+git clone https://github.com/yiiii719/deepseek-api-easy-connect.git
+cd deepseek-api-easy-connect
 node server/index.mjs
 # 浏览器打开 http://127.0.0.1:8899
 ```
